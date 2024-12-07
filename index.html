@@ -3,47 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Superman" de James Gunn tem novo teaser divulgado</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Site de Notícias</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-
-    <!-- Cabeçalho -->
     <header>
-        <h1>Notícia do Dia</h1>
+        <div class="logo">
+            <img src="Images/494445.png" alt="Logo" class="logo-img">
+            <span>Notícias</span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="https://www.cnnbrasil.com.br/entretenimento/superman-james-gunn-confirma-personagem-krypto-e-compartilha-video-veja/" target="_blank">Fonte Externa</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <article>
-        <h2>Superman: James Gunn confirma Krypto, o Supercão, com imagem inédita</h2>
-        <section>
-            <p>James Gunn acaba de confirmar que o cão Krypto estará no Superman estrelado por David <br>
-            Corenswet no filme de 2025. Confira abaixo o anúncio e, em seguida, a tradução.</p>
-            <img src="images/image2.png" alt="Imagem q vamo colocar da noticia" width="600">
-            <p>"Krypto chega às telas do Superman no próximo verão. Krypto foi inspirado em nosso cachorro Ozu, que <br> 
-                adotamos logo depois que comecei a escrever Superman. Ozu, que veio de uma situação complicada em um <br>
-                quintal com outros 60 cães e nunca conheceu seres humanos, era no mínimo problemático. Ele imediatamente <br>
-                entrou e destruiu nossa casa, nossos sapatos, nossos móveis – ele até comeu meu laptop. Demorou muito até <br>
-                que ele nos deixasse tocá-lo. Lembro-me de ter pensado: 'Nossa, quão difícil seria a vida se Ozu tivesse <br>
-                superpoderes?' - e assim Krypto entrou no roteiro e mudou o formato da história enquanto Ozu estava mudando <br>
-                minha vida. Aliás, Ozu hoje é, com bastante frequência, um menino muito bom".</p>
-
-            <p>O novo Super-Homem será interpretado por David Corenswet, enquanto Rachel Brosnahan interpretará Lois Lane; <br> 
-                Nicholas Hoult dará vida a Lex Luthor; e Skyler Gisondo será Jimmy Olsen. “Superman” está previsto para <br>
-                estrear nos cinemas em julho de 2025.<br>
-                <br>
-                A produção “se concentrará no Super-Homem equilibrando sua herança kryptoniana com sua educação humana”, <br>
-                de acordo com o anúncio do estúdio. O longa será o primeiro filme do novo universo da DC Comics (DCU).</p>
+    <main>
+        <section class="top-news">
+            <h1>Destaques</h1>
+            <article>
+                <img src="Images/istockphoto-1008861200-612x612.jpg" alt="Dólar atinge valor histórico">
+                <h2><a href="#">Dólar pode chegar a R$6 no médio prazo, dizem especialistas</a></h2>
+                <p>Economistas apontam fatores como juros elevados nos EUA e instabilidade global como principais razões para a alta.</p>
+            </article>
         </section>
-
-        <section>
-            <video controls width="600">
-                <source src="videos/video.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento <code>video</code>.
-            </video>
+        <section class="other-news">
+            <h1>Mais notícias</h1>
+            <div class="news-grid">
+                <article>
+                    <h3><a href="#">Inflação desacelera e mercado reage positivamente</a></h3>
+                    <p>A taxa anual de inflação caiu para 4,5%, impulsionando setores estratégicos.</p>
+                </article>
+                <article>
+                    <h3><a href="#">Eleições 2024: o que está em jogo?</a></h3>
+                    <p>Especialistas analisam os possíveis cenários políticos do próximo ano.</p>
+                </article>
+                <article>
+                    <h3><a href="#">Tecnologia brasileira avança em energia renovável</a></h3>
+                    <p>Projetos de energia solar e eólica recebem investimentos recordes.</p>
+                </article>
+            </div>
         </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Notícias - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
